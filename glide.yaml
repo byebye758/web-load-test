@@ -1,0 +1,11 @@
+package: web-load-test
+import:
+- package: github.com/astaxie/beego
+  version: v1.8.3
+- package: loadtest/controllers
+- package: loadtest/routers
+testImport:
+- package: github.com/smartystreets/goconvey
+  version: 1.6.2
+  subpackages:
+  - convey
